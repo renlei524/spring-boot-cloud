@@ -51,7 +51,7 @@
 # 项目预览
 
 ## 注册中心
-访问 http://localhost:8761/ 默认账号 user，密码 password
+访问 http://localhost:8761/ 默认账号 leiren，密码 leiren
 
 ![registry](/screenshots/registry.jpg)
 ## 监控
