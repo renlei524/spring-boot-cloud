@@ -12,7 +12,7 @@ eureka:
 security:
   user:
     name: leiren
-    password: leiren
+    password: renlei
   oauth2:
     client:
       clientId: svcb-service

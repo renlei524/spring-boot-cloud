@@ -4,7 +4,7 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://leiren:${REGISTRY_SERVER_PASSWORD:leiren}@127.0.0.1:8761/eureka/
+      defaultZone: http://leiren:${REGISTRY_SERVER_PASSWORD:renlei}@127.0.0.1:8761/eureka/
 
 hystrix:
   command:
@@ -20,7 +20,10 @@ ribbon:
 
 spring:
   rabbitmq:
-    host: 127.0.0.1
+    host: 192.168.2.68
+    username: leiren
+    password: leiren
+    port: 5672
   sleuth:
     sampler:
       percentage: 1

@@ -12,6 +12,8 @@ eureka:
       defaultZone: http://${security.user.name}:${security.user.password}@${eureka.instance.hostname}:${server.port}/eureka/
 
 security:
+  basic:  #可以不配置
+    enabled: true
   user:
     name: leiren
-    password: ${REGISTRY_SERVER_PASSWORD:leiren}
+    password: ${REGISTRY_SERVER_PASSWORD:renlei}
